@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "conio.h": "c",
+        "calc_header.h": "c",
+        "*.tcc": "c"
+    }
+}
