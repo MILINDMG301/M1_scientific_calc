@@ -5,6 +5,7 @@
 #include "./inc/calc_header.h"
 
 int choice, i;
+
 float x=10.0, y=20.0, result;
 float a[]={1,2,3,4,5,6,7,8,9,10};
 float b[]={11,12,13,14,15,16,17,18,19,20};
