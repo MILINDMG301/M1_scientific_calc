@@ -1,6 +1,5 @@
 #include "../inc/calc_header.h"
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 #include<stdlib.h>
 float sr2[50];

@@ -1,23 +1,17 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 #include<stdlib.h>
 #include "./inc/calc_header.h"
 
-int choice, i,usrch;
-void user_inp(void){
-    printf("Enter 1 to add Your inputs to functions.If not enter any other key");
-scanf("%d",&usrch);
-if(usrch==1){}
-else{
-float x=10.0, y=20.0;
+int choice, i;
+
+float x=10.0, y=20.0, result;
 float a[]={1,2,3,4,5,6,7,8,9,10};
 float b[]={11,12,13,14,15,16,17,18,19,20};
 int sa=sizeof(a)/sizeof(type(a[0]));
 int sb=sizeof(b)/sizeof(type(b[0]));
 float theta=30;
-}
-}
+
 void comp(void){
 
 printf("\nSelect your operation (0 to exit):\n");
@@ -255,9 +249,8 @@ printf("Enter correct choice");
 
 
 int main(void) {
-    user_inp();
 operation();
 
-getch();
+getchar();
 return 0;
 }
